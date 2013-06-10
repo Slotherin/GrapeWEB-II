@@ -1,0 +1,47 @@
+.index-input {
+	height: 35px !important;
+	width: 100% !important;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: 400;
+  src: local('FontAwesome'), local('FontAwesome'), url(../fonts/fontawesome.woff) format('woff');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+text-decoration: inherit;
+-webkit-font-smoothing: antialiased;
+display: inline;
+width: auto;
+height: auto;
+line-height: normal;
+vertical-align: baseline;
+background-image: none;
+background-position: 0 0;
+background-repeat: repeat;
+margin-top: 0;
+}
+
+.icon-warning-sign:before{content:"\f071";}
+.icon-remove:before{content:"\f00d";}
+.icon-pause:before{content:"\f04c";}
+.icon-play:before{content:"\f04b";}
+
+.alert {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.alert-danger, .alert-error {
+	background-color: #f1c4c4;
+}
